@@ -1,11 +1,11 @@
-import express from 'express'
+import express from 'express';
 
-const server = express()
+const server = express();
 
-server.get('/', (req, res) =>{
-    res.send('Hello World!');
-})
+server.get('/', (req, res) => {
+	res.send('Hello World!');
+});
 
 server.listen(3333, () => {
-    console.log('Server started on port 3333')
-})
+	console.log('Server started on port 3333');
+});
