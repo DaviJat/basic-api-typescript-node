@@ -31,7 +31,6 @@ export const userCreate = async (req: Request, res: Response) => {
 	res.json(user);
 };
 
-//
 export const userShow = async (req: Request, res: Response) => {
 	const { user_id } = req.params;
 
