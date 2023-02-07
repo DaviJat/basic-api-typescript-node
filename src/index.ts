@@ -6,7 +6,7 @@ import { userRouter } from './modules/user/userRouter.js';
 const server = express();
 
 // Server use json req
-server.use(express.json);
+server.use(express.json());
 
 // Routes the HTTP GET Requests to the path
 server.get('/', (req, res) => {
